@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/ryk_tv_temp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/them_green"
+        android:gravity="bottom|center_horizontal"
+        android:textSize="@dimen/sp20"
+        android:text="换大米"/>
+</LinearLayout>

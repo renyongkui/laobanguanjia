@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.activity.StartActivity">
+
+    <FrameLayout
+        android:id="@+id/ryk_start_fl"
+        style="@style/hight_weight" />
+
+
+    <RadioGroup
+        android:id="@+id/rg_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/rg_dp3">
+
+        <RadioButton
+            android:id="@+id/rb_home"
+            style="@style/RadioGroupStyle"
+            android:drawableTop="@drawable/selector_shouye"
+            android:text="首页"
+            android:textColor="@drawable/selector_guid_text" />
+
+        <RadioButton
+            android:id="@+id/rb_healthy"
+            style="@style/RadioGroupStyle"
+            android:drawableTop="@drawable/selector_healthy_life"
+            android:text="发现"
+            android:textColor="@drawable/selector_guid_text" />
+
+        <RadioButton
+            android:id="@+id/rb_exchange"
+            style="@style/RadioGroupStyle"
+            android:drawableTop="@drawable/selector_exchange"
+            android:text="购物车"
+            android:textColor="@drawable/selector_guid_text" />
+
+        <RadioButton
+            android:id="@+id/rb_mine"
+            style="@style/RadioGroupStyle"
+            android:drawableTop="@drawable/selector_mine"
+            android:text="我的"
+            android:textColor="@drawable/selector_guid_text" />
+
+    </RadioGroup>
+</LinearLayout>
